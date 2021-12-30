@@ -1,0 +1,23 @@
+{
+  "name": "profile-picture",
+  "version": "1.0.0",
+  "description": "Profile Picture is a project about serverless using cloud run, pubsub and storages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Bujosa",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.18.4",
+    "@google-cloud/storage": "^5.16.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^5.13.14",
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2"
+  }
+}
